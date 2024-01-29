@@ -8,7 +8,7 @@ requires pyvisa
 Only device property is the serial port. It's inserted in the following pyvisa
 device string:
 
-`f'ASRL::{gpib_address}::INSTR'`
+`f'ASRL::{serial_port}::INSTR'`
 
 ## Authors
 M. Schneider, MBI Berlin
